@@ -1,0 +1,31 @@
+{
+  "name": "nft-project",
+  "version": "1.0.0",
+  "description": "ERC-721 NFT Contract with Test Suite",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": [
+    "solidity",
+    "nft",
+    "erc721"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.3",
+    "@openzeppelin/contracts": "^5.0.1",
+    "chai": "^4.3.10",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.27.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "type": "commonjs"
+}
